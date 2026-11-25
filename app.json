@@ -1,0 +1,17 @@
+{
+  "package_id": "lab.semilla1.glance",
+  "edition": "202601",
+  "name": "Semilla Glance",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Talks only to your own Semilla Glance backend, which reads and sends your Telegram messages.",
+      "whitelist": ["https://glance-backend.example.org"]
+    }
+  ],
+  "supported_languages": ["en", "es"]
+}

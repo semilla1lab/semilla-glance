@@ -1,0 +1,25 @@
+{
+  "name": "semilla-glance",
+  "version": "0.1.0",
+  "description": "Telegram inbox on Even Realities G2: read at a glance, reply with one tap or by voice. By Semilla1 Lab.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server/index.mjs",
+    "demo": "npm run build && node scripts/demo-stack.mjs",
+    "sim": "evenhub-simulator --automation-port 9898 'http://127.0.0.1:8787/?pair=DEMO42'",
+    "test": "node --test test/*.test.mjs",
+    "e2e": "node scripts/e2e-sim.mjs",
+    "pack": "BACKEND_URL=${BACKEND_URL:?set BACKEND_URL} node scripts/build.mjs && evenhub pack app.json web/dist -o semilla-glance.ehpk"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "^0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "^0.2.0",
+    "@evenrealities/evenhub-simulator": "^0.9.5",
+    "esbuild": "^0.28.2"
+  },
+  "engines": { "node": ">=20" }
+}

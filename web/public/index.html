@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Semilla Glance</title>
+<style>
+ body{font-family:system-ui,sans-serif;background:#0b0f0c;color:#d8ffe0;margin:0;padding:16px}
+ h1{font-size:20px;margin:0 0 4px} small{color:#7fbf8a}
+ .card{background:#121a14;border:1px solid #1f3a26;border-radius:10px;padding:12px;margin:12px 0}
+ input{background:#0b0f0c;color:#d8ffe0;border:1px solid #2f5a3a;border-radius:6px;padding:8px;width:120px;text-transform:uppercase}
+ button{background:#2fd16b;border:0;border-radius:6px;padding:8px 12px;font-weight:600}
+ pre{white-space:pre-wrap;font-size:12px;color:#9fd8aa;max-height:240px;overflow:auto}
+</style>
+</head>
+<body>
+ <h1>Semilla Glance</h1><small>Telegram on G2 · by Semilla1 Lab</small>
+ <div class="card">Pair code from your backend: <input id="pair" maxlength="6"> <button id="save">Pair</button></div>
+ <div class="card">Glasses screen: <b id="screen">boot</b><br><small>Tap = open / choose · Double tap = back · Menu = Digest</small></div>
+ <div class="card"><pre id="log"></pre></div>
+ <script src="./main.js"></script>
+</body>
+</html>
