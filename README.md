@@ -5,6 +5,8 @@
 Built by **Semilla1 Lab** for *Heads Up: Even Realities Hackathon* (Nov 23–29, 2026).
 Main track: **01 · Messaging & News (Telegram)** · also entering **Best Telegram integration**. Second track (optional): **04 · AI Assistants & Work** (OpenRouter / Claude / ChatGPT for drafts).
 
+**Demo video (59 s, Even Hub simulator):** [Watch / download `semilla-glance-demo.mp4`](https://github.com/semilla1lab/semilla-glance/releases/download/v0.1.0/semilla-glance-demo.mp4) (also committed in [`demo/semilla-glance-demo.mp4`](demo/semilla-glance-demo.mp4)).
+
 | Inbox | Chat + AI drafts | Confirm |
 |---|---|---|
 | ![](demo/screens/01-inbox.png) | ![](demo/screens/04-launch-team.png) | ![](demo/screens/05-confirm-draft.png) |
